@@ -55,8 +55,8 @@ function getVideoSources(callback) {
 
 {
   let timer = 0;
-   window.onresize = ()=>{
-     if(timer > 0) clearTimeout(timer);
-     timer = setTimeout(location.reload(), 200);
-   };
+  window.onresize = ()=>{
+    if(timer > 0) clearTimeout(timer);
+    timer = setTimeout(location.reload(), 200);
+  };
 }
