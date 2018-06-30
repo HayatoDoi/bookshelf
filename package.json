@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/HayatoDoi/bookshelf/issues"
   },
-  "homepage": "https://github.com/HayatoDoi/bookshelf#readme"
+  "homepage": "https://github.com/HayatoDoi/bookshelf#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
