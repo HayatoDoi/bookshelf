@@ -1,0 +1,11 @@
+html
+	head
+		title!= title
+		meta(charset="UTF-8")
+		link(rel='stylesheet' href="/static/css/barcode.css")
+	body
+		canvas#canvas
+		div#videobox
+			video#video(autoplay="" playsinline="")
+
+	script(src="/static/js/barcode.js")

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ienv": "NODE_PATH=$NODE_PATH:`pwd`",
+    "test": "npm cache clean && npm start",
+    "start": "npm run ienv && node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/HayatoDoi/bookshelf#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "bootstrap": "^4.0.0-alpha.6",
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
   }
 }

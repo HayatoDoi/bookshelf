@@ -1,0 +1,8 @@
+{
+	"service":{
+		"port":5000,
+		"staticFilePath":"public",
+		"root":"/",
+		"domain":"localhost"
+	}
+}
