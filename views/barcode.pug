@@ -2,9 +2,11 @@ html
 	head
 		title!= title
 		meta(charset="UTF-8")
+		meta(name="viewport" content="width=device-width,initial-scale=1")
 		link(rel='stylesheet' href="/static/css/barcode.css")
 	body
 		canvas#canvas
+		input(type="image" src="/static/img/chcycle.jpg")#chcycle
 		div#videobox
 			video#video(autoplay="" playsinline="")
 
