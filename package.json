@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ienv": "NODE_PATH=$NODE_PATH:`pwd`",
     "test": "npm cache clean && npm start",
-    "start": "npm run ienv && node index.js"
+    "start": "NODE_PATH=$NODE_PATH:`pwd` node index.js"
   },
   "repository": {
     "type": "git",
